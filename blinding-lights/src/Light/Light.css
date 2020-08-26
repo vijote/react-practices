@@ -1,0 +1,12 @@
+.Light{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    margin-left: 2px;
+}
+.off {
+    background-color: #3b322b;
+}
+.on {
+    background-color: #fabb8a;
+}

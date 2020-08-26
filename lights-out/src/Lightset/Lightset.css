@@ -1,0 +1,37 @@
+table{
+    margin: auto;
+    box-shadow: 0px 1px 69px 14px rgba(68,255,174,0.34);
+}
+tr{
+    padding: 2px;
+    margin: 2px;
+}
+.Lightset{
+    width: 525px;
+}
+.winner{
+    color: #eefff8;
+    font-size: 80px;
+    margin-top: 20vh;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #44ffae, 0 0 0.5em #44ffae, 0 0 0.1em #44ffae, 0 8px 3px #000;
+}
+.title{
+    font-size: 60px;
+}
+.lightblue{
+    color: #e8faff;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #40f5ef, 0 0 0.5em #40f5ef, 0 0 0.1em #40f5ef, 0 8px 3px #000;
+    animation: blink 2s linear infinite;
+}
+.purple{
+    color: #f9e8ff;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #cd40f7, 0 0 0.5em #cd40f7, 0 0 0.1em #cd40f7, 0 8px 3px #000;
+    animation: blink 3s linear infinite;
+}
+
+@keyframes blink {
+    50%{
+        opacity: 10%;
+        text-shadow: none;
+    }
+}

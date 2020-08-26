@@ -1,0 +1,19 @@
+.Die{
+    display: inline-block;
+    margin: 5%;
+    font-size: 200px;
+    color: #0e3e8a;
+}
+.Die-Rolling{
+    animation-name: example ;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    position: relative;
+    
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%  {left:70px; top:0px; transform: rotate(5deg);}
+    80%  {left:-20px; top:0px; transform: rotate(-5deg);}
+    100%   {left:0px; top:0px;}
+  }

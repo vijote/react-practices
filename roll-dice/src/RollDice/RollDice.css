@@ -1,0 +1,13 @@
+.RollDice-button{
+    display: block;
+    width:200px;
+    height: 60px;
+    font-size: large;
+    text-transform: uppercase;
+    background-color: #0e3e8a;
+    border: 0;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+}

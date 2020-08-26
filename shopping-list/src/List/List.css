@@ -1,0 +1,87 @@
+form{
+    margin-top: 15px;
+}
+input{
+    font-family: 'Open Sans', sans-serif;
+    height: 45px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    background-color: #353434;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-flex;
+}
+.List-container{
+    width: 350px;
+    min-height: 550px;
+    background-color: #373636;
+    margin: 50px auto;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    
+}
+.List-header{
+    background-color: #535353;
+    width: 350px;
+    height: 127px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.List-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding-top: 22px;
+    padding-left: 24px;
+    margin:0;
+}
+.List-submit{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: 0;
+    outline: none;
+    background-color: #9db4c0;
+    color: #353434;
+    font-size: 15px;
+    height: 50px;
+    width: 60px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+.List-qty-container{
+    background-color: #353434;
+    border-radius: 25px;
+    height: 48px;
+    display: inline-flex;
+    margin-left: 5px;
+    
+}
+.List-qty-container input{
+    display: inline-flex;
+    width: 30px;
+    background-color: rgba(193, 66, 66, 0);
+}
+.List-qty-buttons {
+    margin-top: 12px;
+    margin-right: 12px;
+    display: inline-block;
+    height: 10px;
+}
+.List-qty-buttons i{
+    color: white;
+    font-size: 12px;
+    display: block;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+::placeholder{
+    font-weight: 700;
+    font-size: 15px;
+    
+}
